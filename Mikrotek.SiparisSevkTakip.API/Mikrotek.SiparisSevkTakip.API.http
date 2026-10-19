@@ -1,0 +1,6 @@
+@Mikrotek.SiparisSevkTakip.API_HostAddress = http://localhost:5003
+
+GET {{Mikrotek.SiparisSevkTakip.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
