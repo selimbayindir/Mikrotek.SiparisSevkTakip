@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mikrotek.SiparisSevkTakip.DataAccess\Mikrotek.SiparisSevkTakip.DataAccess.csproj" />
+    <ProjectReference Include="..\Mikrotek.SiparisSevkTakip.Entities\Mikrotek.SiparisSevkTakip.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
