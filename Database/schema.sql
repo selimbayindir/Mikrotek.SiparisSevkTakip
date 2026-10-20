@@ -60,5 +60,5 @@ CREATE INDEX idxMusteri ON Santiye(MusteriId);
 CREATE INDEX idxSiparisDurum ON Siparis(SantiyeId, Durum);
 CREATE INDEX idxTeslimTarihi ON Siparis(TeslimTarihi);
 CREATE INDEX idxSevkiyatSiparis ON Sevkiyat(SiparisId);
-CREATE INDEX idxSevkiyatZaman ON Sevkiyat(CikisZamani, Plaka);
+
 GO

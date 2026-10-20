@@ -18,5 +18,6 @@ namespace Mikrotek.SiparisSevkTakip.Entities.Concrete
         public Santiye? Santiye { get; set; }
         public BetonSinifi? BetonSinifi { get; set; }
         public List<Sevkiyat> Sevkiyatlar { get; set; } = new();
+
     }
 }

@@ -15,7 +15,6 @@ namespace Mikrotek.SiparisSevkTakip.Entities.DTOs
         [Required(ErrorMessage = "Plaka zorunludur.")]
         public string Plaka { get; set; } = null!;
 
-        // İş Kuralı 3: Tek bir sevkiyat en fazla 12 m3 olabilir ve pozitif olmalıdır.
         [Range(0.1, 12.0, ErrorMessage = "Sevkiyat miktarı 0'dan büyük ve en fazla 12 m³ olabilir.")]
         public decimal MiktarM3 { get; set; }
     }
